@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  text-align: center;
+  background-color: #6699cc;
+}
+
+footer {
+  background-color: #88AED0;
+  color: #FEF2BF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .75rem;
+  padding: 1rem
+}
+
+a {
+  color: #FFC0CB
+}
+
+#level-title {
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  margin:  3%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid grey;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #ff9999;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FFC0CB;
+}
+
+.green {
+  background-color: #AFD297;
+}
+
+.blue {
+  background-color: #99cccc;
+}
+
+.yellow {
+  background-color: #ffff99;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.instructions {
+  width: 35%;
+  margin: 30px auto;
+  color: #FEF2BF;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 1.5rem
+}
+
+.instruction-title {
+  margin: 10px
+}
+
+.instruction-rule {
+  margin: 10px
+}
